@@ -87,3 +87,10 @@ https://www.youtube.com/watch?v=F0Ri2TpRBBg
 const inst = await Faucet.deployed()
 2 ETH = 2000000000000000000 WEI
 inst.addFunds({value: '2000000000000000000'})
+--------------------------------------------------------------------------------
+web3.eth.sendTransaction({from:accounts[0], to: '0x5c434646d82797AEF00762EE7C2dA1F4F1347DA8', data: '0xa26759cb', value: '3000000000000000000'})
+https://eth-converter.com/
+https://emn178.github.io/online-tools/keccak_256.html
+
+addFunds() = 0xa26759cb - first 4 bytes in Keccak-256
+
