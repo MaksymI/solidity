@@ -99,4 +99,25 @@ https://remix.ethereum.org/
 https://eth.wiki/json-rpc/API
 {"jsonrpc":"2.0","method":"eth_accounts","params":[],"id":1}
 
-{"jsonrpc":"2.0","method":"eth_sendTransaction","params":[{see above}],"id":1}
+POST http://127.0.0.1:7545
+{
+	"jsonrpc":"2.0",
+	"method":"eth_sendTransaction",
+	"params":[
+		{
+			"from": "0x1ED2e0a35814e045701A0D613B3e610f9146d344",
+			"to": "0x47c4fA99E1abfA46A107589717Bf2C86ED8ecfC7",
+			"gas": "0x76c0", // 30400
+			"gasPrice": "0x9184e72a000", // 10000000000000
+			"value": "0x8AC7230489E80000", // 10 ETH
+			"data": "0xa26759cb" // addFunds()
+		}
+	],
+	"id":2
+}
+Response
+{
+    "id": 2,
+    "jsonrpc": "2.0",
+    "result": "0xef96e5616a660b9a2fb2e53d4c958fd52a3f91aaf92a5ef88c5e7a002eeab0e9"
+}
