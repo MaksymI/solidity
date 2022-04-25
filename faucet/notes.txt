@@ -94,3 +94,4 @@ https://emn178.github.io/online-tools/keccak_256.html
 
 addFunds() = 0xa26759cb - first 4 bytes in Keccak-256
 
+https://remix.ethereum.org/
