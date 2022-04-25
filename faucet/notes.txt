@@ -82,3 +82,8 @@ https://www.youtube.com/watch?v=RxL_1AfV7N4
 
 Memory in computer:
 https://www.youtube.com/watch?v=F0Ri2TpRBBg
+
+--------------------------------------------------------------------------------
+const inst = await Faucet.deployed()
+2 ETH = 2000000000000000000 WEI
+inst.addFunds({value: '2000000000000000000'})
