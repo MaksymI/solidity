@@ -72,7 +72,7 @@ https://medium.com/coinmonks/data-structure-in-ethereum-episode-1-recursive-leng
 
 Etherem Live view
 http://ethviewer.live/
-
+https://txstreet.com/v/eth-btc
 
 bits, bytes, words
 https://www.youtube.com/watch?v=Weyv-V8xz0c
