@@ -95,3 +95,8 @@ https://emn178.github.io/online-tools/keccak_256.html
 addFunds() = 0xa26759cb - first 4 bytes in Keccak-256
 
 https://remix.ethereum.org/
+
+https://eth.wiki/json-rpc/API
+{"jsonrpc":"2.0","method":"eth_accounts","params":[],"id":1}
+
+{"jsonrpc":"2.0","method":"eth_sendTransaction","params":[{see above}],"id":1}
